@@ -11,4 +11,4 @@ build-min:
 watch:
 	@$(WEBPACK_BIN) $(ENTRY) $(OUTPUT) --watch
 
-.PHONY: build build-min
+.PHONY: build
