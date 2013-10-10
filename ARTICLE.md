@@ -1,4 +1,3 @@
-
 ## An introduction to webpack: Cross develop for Node and the Browser without forking around
 
 With the various options available for managing client-side code, it can be tough to decide which path to go down.  There are many opinions in the AMD vs CommonJS argument, and there are 
@@ -10,7 +9,7 @@ plenty of information and guides for the most popular tools: [RequireJS](http://
 * Intuitive **bundle splitting** (vs. browserify, which produces a single bundle per entry file)
 * Fancy tools like ```require('./assets/style.css')``` like ```var tpl = require('./template.jade')```
 
-So, lets put together a sample project to show the power of webpack.
+So, lets put together a sample project to show the power of webpack.  
 [Source](https://github.com/davidgovea/webpack-intro)
 
 Install webpack:
@@ -51,7 +50,7 @@ And then, our "entry" script for the browser. Require() as usual!
 require('./bower_components/modernizr/modernizr.js')
 
 // Require jquery and Backbone
-var $ = require('./bower_components/jquery'),
+var $ = require('./bower_components/jquery/jquery.js'),
     Backbone = require('backbone'); // Use backbone from npm
 
 // Include jquery.scrollTo (does not export anything)
