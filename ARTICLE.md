@@ -1,7 +1,9 @@
 ## An introduction to webpack: Cross develop for Node and the Browser without forking around
 
 With the various options available for managing client-side code, it can be tough to decide which path to go down.  There are many opinions in the AMD vs CommonJS argument, and there are 
-plenty of information and guides for the most popular tools: [RequireJS](http://www.requirejs.org/) (AMD) and [browserify](http://browserify.org/) (CommonJS). I've recently read several accounts of [RequireJS users switching](http://esa-matti.suuronen.org/blog/2013/03/22/journey-from-requirejs-to-browserify/) [to browserify](http://codeofrob.com/entries/why-i-stopped-using-amd.html), mainly due to the lack of uniformity across front-end libraries. Incorporating a library into your project often requires a shim module file or a "light" project fork. Frustrating!
+plenty of information and guides for the most popular tools: [RequireJS](http://www.requirejs.org/) (AMD) and [browserify](http://browserify.org/) (CommonJS).  
+
+I've recently read several accounts of [RequireJS users switching](http://esa-matti.suuronen.org/blog/2013/03/22/journey-from-requirejs-to-browserify/) [to browserify](http://codeofrob.com/entries/why-i-stopped-using-amd.html), mainly due to the lack of uniformity across front-end libraries. Incorporating a library into your project often requires a shim module file or a "light" project fork. Frustrating!
 
 [Webpack](https://github.com/webpack/webpack) is an excellent project that just might be the browser require() you've always wanted.
 ### Notable features beyond browserify:
