@@ -1,0 +1,21 @@
+{
+  "name": "webpack-intro",
+  "version": "0.0.0",
+  "authors": [
+    "David Govea <govea.d@gmail.com>"
+  ],
+  "description": "Webpack demo",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery.scrollTo": "~1.4.6",
+    "jquery": "~2.0.3"
+  }
+}

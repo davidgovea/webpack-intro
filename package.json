@@ -1,0 +1,17 @@
+{
+  "name": "webpack-intro",
+  "version": "0.0.0",
+  "description": "Webpack demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "David Govea <govea.d@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "~1.0.0",
+    "webpack": "~0.11.0-beta19",
+    "hammerjs": "~1.0.5"
+  }
+}
